@@ -8,6 +8,8 @@ This project performs an exploratory data analysis (EDA) on an online financial 
 
 The insights gained from this analysis will serve as the foundation for future machine learning models capable of detecting fraudulent transactions.
 
+![dashboard](images/0.dashboard.png)
+
 ---
 
 ## Business Problem
@@ -115,7 +117,7 @@ Fraud accounts for only **0.13%** of all transactions, indicating a highly imbal
 
 ### 2. Which transaction types are most vulnerable?
 
-![Fraud by Transaction Type](images/3.fraud_rate_transaction_type.png)
+![Fraud by Transaction Type](images/3.%20fraud_rate_transaction_type.png)
 
 Fraud occurs exclusively in **TRANSFER** and **CASH_OUT** transactions.
 
@@ -124,7 +126,7 @@ TRANSFER has the highest fraud rate despite CASH_OUT containing slightly more fr
 ---
 
 ### 3. Do fraudulent transactions involve larger amounts?
-![Transaction Amount Distribution](images/4.transaction_amount_by_fraud_status.png)
+![Transaction Amount Distribution](images/4.%20transaction_amount_by_fraud_status.png)
 
 Fraudulent transactions generally involve significantly larger transaction amounts than legitimate transactions.
 
@@ -134,11 +136,11 @@ However, transaction amount alone is insufficient for identifying fraud because 
 
 ### 4. How do account balances differ?
 
-![Sender Balance Before](images/5.ender_balance_before.png)
-![Sender Balance After](images/6.sender_balance_after.png)
+![Sender Balance Before](images/5.%20sender_balance_before.png)
+![Sender Balance After](images/6.%20sender_balance_after.png)
 
-![Recipient Balance Before](images/7.recipient_balance_before.png)
-![Recipient Balance After](images/8.recipient_balance_after.png)
+![Recipient Balance Before](images/7.%20recipient_balance_before.png)
+![Recipient Balance After](images/8.%20recipient_balance_after.png)
 
 Fraudulent transactions typically:
 
@@ -152,7 +154,7 @@ These balance patterns provide useful indicators for fraud detection.
 
 ### 5. Does fraud change over time?
 
-![Fraud Over Time](images/9.fraud_over_time.png)
+![Fraud Over Time](images/9.%20fraud_over_time.png)
 
 Fraud occurs throughout the observation period with occasional spikes but no consistent upward or downward trend.
 
